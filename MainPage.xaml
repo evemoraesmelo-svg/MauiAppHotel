@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.MainPage"
+             BackgroundColor="#F2F6FC"
+             Title="Hotel">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="25" Spacing="22">
+
+            <Label Text="HOTEL"
+                   FontSize="16"
+                   FontAttributes="Bold"
+                   TextColor="#247BA0"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="Bem-vindo!"
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   TextColor="#142B4A"
+                   HorizontalOptions="Center"/>
+
+            <Image Source="dotnet_bot.png"
+                   HeightRequest="180"
+                   Aspect="AspectFit"/>
+
+            <Label Text="Sua hospedagem começa aqui."
+                   FontSize="18"
+                   TextColor="#52657A"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"/>
+
+            <BoxView HeightRequest="1"
+                     Color="#D9E2EF"/>
+
+            <Label Text="Conforto e praticidade para sua estadia."
+                   FontSize="16"
+                   TextColor="#142B4A"
+                   HorizontalTextAlignment="Center"/>
+
+            <Button Text="Conhecer hospedagens"
+                    BackgroundColor="#247BA0"
+                    TextColor="White"
+                    CornerRadius="15"
+                    HeightRequest="55"
+                    Clicked="OnCounterClicked"/>
+
+            <Button Text="Sobre o aplicativo"
+                    BackgroundColor="#142B4A"
+                    TextColor="White"
+                    CornerRadius="15"
+                    HeightRequest="55"/>
+
+            <Label Text="Desenvolvido em 2026"
+                   FontSize="12"
+                   TextColor="#718096"
+                   HorizontalOptions="Center"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
